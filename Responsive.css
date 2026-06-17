@@ -1,0 +1,141 @@
+/* ==================================
+   responsive.css
+================================== */
+
+/* Laptop */
+
+@media (max-width:1200px){
+
+.hero-content h1{
+    font-size:4rem;
+}
+
+.section-header h2{
+    font-size:2.5rem;
+}
+
+}
+
+/* Tablet */
+
+@media (max-width:992px){
+
+.nav-links{
+    gap:18px;
+}
+
+.about-grid{
+    grid-template-columns:1fr;
+}
+
+.stats-grid{
+    grid-template-columns:repeat(2,1fr);
+    gap:40px;
+}
+
+.hero-content h1{
+    font-size:3.5rem;
+}
+
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+.nav-wrapper{
+
+    padding:14px 18px;
+}
+
+.nav-links{
+
+    display:none;
+}
+
+.logo-area h2{
+
+    font-size:1rem;
+}
+
+.btn-primary{
+
+    padding:12px 20px;
+}
+
+.hero-content h1{
+
+    font-size:2.6rem;
+}
+
+.hero-content p{
+
+    font-size:1rem;
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+
+    width:100%;
+}
+
+.hero-buttons a{
+
+    width:100%;
+}
+
+.section{
+
+    padding:90px 0;
+}
+
+.section-header h2{
+
+    font-size:2rem;
+}
+
+.about-features{
+
+    grid-template-columns:1fr;
+}
+
+.stats-grid{
+
+    grid-template-columns:1fr;
+}
+
+.contact-form{
+
+    width:100%;
+}
+
+}
+
+/* Small Mobile */
+
+@media (max-width:480px){
+
+.hero-content h1{
+
+    font-size:2.1rem;
+}
+
+.hero-tag{
+
+    font-size:.8rem;
+}
+
+.theme-toggle{
+
+    width:45px;
+    height:45px;
+}
+
+.whatsapp-btn{
+
+    width:55px;
+    height:55px;
+}
+
+}
